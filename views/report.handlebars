@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset invoice-styles.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <div class="invoice-box">
+            <table cellpadding="0" cellspacing="0">
+                <tr class="top">
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td class="title">
+                                    <img src="{#asset logo-ingram-micro.png @encoding=dataURI}" style="width:100%; max-width:300px;" />
+                                </td>
+                                <td>
+                                    Start Date: {{startDate}}
+                                    <br> End Date: {{endDate}}
+                                    <br> Due: {{foo}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- <tr class="information ">
+                    <td colspan="2 ">
+                        <table>
+                            <tr>
+                                <td>
+                                    {{seller.name}}<br>
+                                    {{seller.road}}<br>
+                                    {{seller.country}}
+                                </td>
+                                <td>
+                                    {{buyer.name}}<br>
+                                    {{buyer.road}}<br>
+                                    {{buyer.country}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr> -->
+                <tr class="heading ">
+                    <td>
+                        Item
+                    </td>
+                    <td>
+                        Price
+                    </td>
+                </tr>
+<!--                 {{#each items}}
+                <tr class="item">
+                    <td>
+                        {{name}}
+                    </td>
+                    <td>
+                        $ {{price}}
+                    </td>
+                </tr>
+                {{/each}} -->
+                <tr class="total ">
+                    <td></td>
+                    <td>
+                        Total: ${{foo}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

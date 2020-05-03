@@ -1,0 +1,74 @@
+2020-05-02T12:44:13.804Z - error: Rendering request 1 finished with error in 13 ms
+2020-05-02T12:44:13.805Z - error: Error when processing render request 1 Asset invoice-logo.png not found Error: Asset invoice-logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T12:44:13.805Z - error: Error during processing request at http://localhost:2000/templates/rkJTnK2ce
+2020-05-02T12:44:51.139Z - error: Rendering request 2 finished with error in 4 ms
+2020-05-02T12:44:51.139Z - error: Error when processing render request 2 Asset invoice-logo.png not found Error: Asset invoice-logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T12:44:51.139Z - error: Error during processing request at http://localhost:2000/api/report/invoice-main
+2020-05-02T13:04:29.926Z - error: Rendering request 1 finished with error in 12 ms
+2020-05-02T13:04:29.926Z - error: Error when processing render request 1 Asset invoice-logo.png not found Error: Asset invoice-logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T13:04:29.927Z - error: Error during processing request at http://localhost:3000/reporting/api/report/invoice-main
+2020-05-02T13:06:17.227Z - error: Rendering request 1 finished with error in 12 ms
+2020-05-02T13:06:17.227Z - error: Error when processing render request 1 Asset invoice-logo.png not found Error: Asset invoice-logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T13:06:17.228Z - error: Error during processing request at http://localhost:3000/reporting/api/report/invoice-main
+2020-05-02T13:09:33.284Z - error: Rendering request 2 finished with error in 4 ms
+2020-05-02T13:09:33.285Z - error: Error when processing render request 2 Asset /img/logo.png not found Error: Asset /img/logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T13:09:33.285Z - error: Error during processing request at http://localhost:3000/reporting/api/report/invoice-main
+2020-05-02T13:09:59.236Z - error: Rendering request 3 finished with error in 5 ms
+2020-05-02T13:09:59.236Z - error: Error when processing render request 3 Asset ./img/logo.png not found Error: Asset ./img/logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T13:09:59.236Z - error: Error during processing request at http://localhost:3000/reporting/api/report/invoice-main
+2020-05-02T13:13:34.441Z - error: Rendering request 1 finished with error in 12 ms
+2020-05-02T13:13:34.441Z - error: Error when processing render request 1 Asset /img/logo.png not found Error: Asset /img/logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T13:13:34.442Z - error: Error during processing request at http://localhost:3000/reporting/api/report/invoice-main
+2020-05-02T13:14:08.708Z - error: Rendering request 2 finished with error in 6 ms
+2020-05-02T13:14:08.708Z - error: Error when processing render request 2 Asset http://localhost:3000/img/logo.png not found Error: Asset http://localhost:3000/img/logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T13:14:08.709Z - error: Error during processing request at http://localhost:3000/reporting/api/report/invoice-main
+2020-05-02T13:16:40.450Z - error: Error when processing OData POST: /reporting/odata/assets Error: Request to file /img/logo.png denied. Please allow it by setting config { "extensions": { "assets": { "allowedFiles": "**/foo.png" } } } or the more general { "extensions": { "assets": { "allowedFiles": "**/*.*" } } }
+    at module.exports (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-core/lib/util/createError.js:11:13)
+    at Reporter.createError (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-core/lib/reporter.js:328:12)
+    at linkPath (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:93:20)
+    at readFile (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:103:28)
+    at AsyncFunction.reporter.documentStore.collection.beforeInsertListeners.add (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:456:15)
+    at /Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/lib/listenerCollection.js:171:33
+    at /Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/lib/listenerCollection.js:151:16
+    at tryCatcher (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+2020-05-02T13:17:47.215Z - error: Rendering request 1 finished with error in 12 ms
+2020-05-02T13:17:47.215Z - error: Error when processing render request 1 Asset http://localhost:3000/img/logo.png not found Error: Asset http://localhost:3000/img/logo.png not found
+    at readAsset (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:227:15)
+2020-05-02T13:17:47.216Z - error: Error during processing request at http://localhost:3000/reporting/api/report/invoice-main
+2020-05-02T13:18:29.617Z - error: Error when processing OData POST: /reporting/odata/assets Error: Request to file /img/logo.png denied. Please allow it by setting config { "extensions": { "assets": { "allowedFiles": "**/foo.png" } } } or the more general { "extensions": { "assets": { "allowedFiles": "**/*.*" } } }
+    at module.exports (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-core/lib/util/createError.js:11:13)
+    at Reporter.createError (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-core/lib/reporter.js:328:12)
+    at linkPath (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:93:20)
+    at readFile (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:103:28)
+    at AsyncFunction.reporter.documentStore.collection.beforeInsertListeners.add (/Users/snilsen/code/node/jsreportapp/node_modules/jsreport-assets/lib/assets.js:456:15)
+    at /Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/lib/listenerCollection.js:171:33
+    at /Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/lib/listenerCollection.js:151:16
+    at tryCatcher (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/snilsen/code/node/jsreportapp/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
