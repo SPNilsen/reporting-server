@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jsreport": "^2.7.2",
     "jsreport-cli": "^2.2.2",
     "jsreport-express": "^2.6.0"
